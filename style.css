@@ -4,3 +4,76 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
+/* Navbar starts from here */
+.nav-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-logo img{
+    height: 40px;
+    width: 80px;
+}
+.g{
+    color: #FF43A4;
+}
+.nav-logo span{
+    font-size: 40px;
+    font-weight: 900;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: #3C354F;
+    margin-left: 120px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.follow{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 15px 20px;
+}
+.fa-youtube{
+    margin: 0px 5px;
+    color: red;
+}
+
+/* GOAT starts from here */
+.GOAT{
+    background-image: url(./images/Background.png);
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.goat-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.goat-details{
+    width: 50%;
+    margin: 0 auto;
+
+}
+.goat-img{
+    width: 50%;
+    background-size: cover;
+}
+.goat-img img{
+    
+}
