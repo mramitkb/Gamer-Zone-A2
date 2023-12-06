@@ -1,3 +1,30 @@
+/* laptop and Tablet Device */
+@media screen and (max-width: 1024px) {
+    
+    .nav-container{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .nav-menu{
+        width: 100%;
+    }
+    .nav-menu a{
+        margin: 20px 0;
+    }
+    .goat-container{
+        flex-direction: column-reverse;
+        margin: 50px 0px 0px;
+    }
+    .goat-details{
+        width: 100%;
+        padding: 20px;
+    }
+    .goat-img{
+        width: 100%;
+        padding: 5px;
+    }
+}
+
 /* Mobile Device */
 @media screen and (max-width: 425px) {
     
@@ -8,9 +35,21 @@
     .nav-menu{
         flex-direction: column;
         width: 100%;
-        margin-top: 20px;
+        margin: 20px;
     }
     .nav-menu a{
         margin: 20px 0;
+    }
+    .goat-container{
+        flex-direction: column-reverse;
+        margin: 200px 0px 0px;
+    }
+    .goat-details{
+        width: 100%;
+        padding: 20px;
+    }
+    .goat-img{
+        width: 100%;
+        padding: 5px;
     }
 }
