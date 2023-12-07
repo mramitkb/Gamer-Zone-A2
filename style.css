@@ -80,17 +80,17 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    margin: 0px 0px;
 }
 .details{
     margin: 10px 0px;
 }
 .details p{
     margin: 10px 0px;
+    color: #534C64;
 }
 .btn-red{
     background-color: #FF43A4;
-    padding: 20px 40px;
+    padding: 15px 30px;
     color: white;
     border: none;
     border-radius: 48px;
@@ -100,7 +100,7 @@
 }
 .btn-blue{
     background-color: #46C7F5;
-    padding: 20px 40px;
+    padding: 15px 30px;
     color: white;
     border: none;
     border-radius: 48px;
@@ -127,17 +127,81 @@
     background-color: #FFF9FC;
 }
 .gamer-container{
-    border: 2px solid black;
     max-width: 1440px;
     margin: 0 auto;
     min-height: 100px;
     display: flex;
+    padding: 20px 0px;
 }
 .gamer-img{
-    border: 2px solid green;
     width: 50%;
 }
+.gamer-img img{
+    width: 100%;
+}
 .gamer-details{
-    border: 2px solid red;
     width: 50%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.gamer-details h3{
+    font-size: 32px;
+    font-weight: 800;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.gamer-details p{
+    margin-left: 30%;
+    margin-top: 20px;
+    color: #534C64;
+}
+.gamer-btn{
+    background-color: #FF43A4;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    border-radius: 48px;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.gamer-btn:hover{
+    cursor: pointer;
+    color: black;
+}
+.gamer-details h5{
+    margin: 15px 0px 5px;
+    font-weight: normal;
+}
+.gamer-details h4{
+    color: #534C64;
+    font-size: 18px;
+}
+
+/* Rectangle starts from here */
+.rectangle{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+.rectangle h3{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+}
+.funny{
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.rectangle p{
+    color: #534C64;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0px;
 }

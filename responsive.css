@@ -23,6 +23,20 @@
         width: 100%;
         padding: 5px;
     }
+    .gamer-container{
+        flex-direction: column;
+    }
+    .gamer-img{
+        width: 100%;
+    }
+    .gamer-details{
+        width: 100%;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .gamer-details p{
+        margin:  20px 35px 5px;
+    }
 }
 
 /* Mobile Device */
@@ -46,7 +60,7 @@
     }
     .goat-details{
         width: 100%;
-        padding: 20px;
+        padding: 40px 20px;
     }
     .goat-img{
         width: 100%;
