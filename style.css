@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:ital,wght@0,400;0,700;1,700&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -185,7 +190,7 @@
 /* Rectangle starts from here */
 .rectangle{
     max-width: 1440px;
-    margin: 120px auto;
+    margin: 80px auto;
 }
 .rectangle h3{
     text-align: center;
@@ -208,10 +213,234 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
 }
 .card{
     max-width: 340px;
     max-height: 400px;
     margin-top: 40px;
+}
+
+/* AD-1 starts from here */
+.adOne-container{
+    max-width: 1440px;
+    margin: 120px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    gap: 10px;
+}
+.adOne-details{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adOne-details h2{
+    font-size: 40px;
+    font-weight: 800;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.adOne-details h3{
+    font-size: 36px;
+    font-weight: 800;
+}
+.adOne-details p{
+    margin-top: 30px;
+    color: #534C64;
+}
+.adOne-img{
+    width: 50%;
+    position: relative;
+}
+.img-two{
+    width: 40%;
+    position: absolute;
+    bottom: -12%;
+    left: -8%;
+}
+
+/* Ad-2 starts from here */
+.adTwo-container{
+    max-width: 1440px;
+    margin: 150px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 30px;
+}
+.adTwo-img{
+    width: 50%;
+    position: relative;
+}
+.img-three{
+    width: 100%;
+}
+.img-four{
+    width: 40%;
+    position: absolute;
+    bottom: -20%;
+    right: -20%;
+}
+.adTwo-details{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adTwo-details h2{
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 40px;
+    font-weight: 800;
+}
+.adTwo-details h3{
+    font-size: 36px;
+    font-weight: 800;
+}
+.adTwo-details p{
+    color: #534C64;
+    margin-top: 20px;
+}
+
+/* Career starts from here */
+.career{
+    background-color: #FF56AD;
+    margin-top: 240px;
+}
+.career-container{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    color: white;
+}
+.career-details{
+    width: 50%;
+}
+.career-details h2{
+    font-size: 40px;
+    margin-top: 60px;
+}
+.career-details p{
+    font-size: 15px;
+    margin: 20px 0;
+}
+.career-address{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+    font-size: 18px;
+}
+.title li, .location li{
+    list-style: none;
+    margin-bottom: 3px;
+}
+.location li{
+    text-align: right;
+}
+.btn-white{
+    border: none;
+    padding: 15px 30px;
+    border-radius: 48px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FF56AD;
+}
+.btn-white:hover{
+    cursor: pointer;
+    color: black;
+}
+.career-img{
+    width: 50%;
+}
+.career-img img{
+    width: 100%;
+}
+
+/* Tag starts from here */
+.tag{
+    background-color: #FFF9FC;
+}
+.tag-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+.tag-five, .tag-four{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.five, .four{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 48px;
+}
+.five:hover{
+    cursor: pointer;
+    border: 1px solid #FF56AD;
+}
+.four:hover{
+    cursor: pointer;
+    border: 1px solid #FF56AD;
+}
+
+/* Footer starts from here */
+.footer-container{
+    background-color: #0A0322;
+    text-align: center;
+    padding: 120px 0;
+    color: white;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-logo p{
+    font-size: 40px;
+    font-weight: 800;
+}
+.footer-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+.footer-icon img{
+    margin-right: 20px;
+}
+.terms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+    color: #534C64;
+}
+.copyright{
+    color: #534C64;
+}
+.gamer{
+    color: white;
+    background-color: #0A0322;
+    font-weight: bold;
+}
+.G{
+    color: #FF43A4;
 }

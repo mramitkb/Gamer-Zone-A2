@@ -1,6 +1,7 @@
 /* laptop and Tablet Device */
 @media screen and (max-width: 1024px) {
     
+    /* Navbar */
     .nav-container{
         flex-direction: column;
         padding: 30px;
@@ -11,6 +12,8 @@
     .nav-menu a{
         margin: 20px 0;
     }
+
+    /* GOAT */
     .goat-container{
         flex-direction: column-reverse;
         margin: 50px 0px 0px;
@@ -23,6 +26,8 @@
         width: 100%;
         padding: 5px;
     }
+
+    /* Gamer */
     .gamer-container{
         flex-direction: column;
     }
@@ -38,6 +43,88 @@
         margin:  20px 35px 5px;
     }
 
+    /* Rectangle */
+    /* Try to make 2 column like grid */
+    .rectangle-container{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    /* Ad-1 */
+    .adOne-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .adOne-details{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .adOne-img{
+        width: 100%;
+        padding: 20px;
+    }
+    .img-one{
+        width: 75%;
+    }
+    .img-two{
+        width: 30%;
+        bottom: -20%;
+        left: 5%;
+    }
+
+    /* Ad-2 */
+    .adTwo-container{
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 200px;
+        margin-bottom: 80px;
+    }
+    .adTwo-img{
+        width: 100%;
+        padding: 20px;
+    }
+    .img-three{
+        width: 75%;
+    }
+    .img-four{
+        width: 30%;
+        bottom: -5%;
+        right: 5%;
+    }
+    .adTwo-details{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    /* Career */
+    .career{
+        margin-top: 0;
+    }
+    .career-container{
+        flex-direction: column;
+    }
+    .career-details{
+        width: 100%;
+        padding: 10px;
+    }
+    .career-address{
+        font-size: 14px;
+    }
+    .btn-white{
+        font-size: 12px;
+        padding: 12px 20px;
+    }
+    .career-img{
+        width: 100%;
+    }
+    /* TAG */
+    .tag-five, .tag-four{
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 10px;
+    }
 }
 
 /* Mobile Device */
@@ -67,5 +154,66 @@
         width: 100%;
         padding: 5px;
     }
-    
+    .rectangle-container{
+        flex-direction: column;
+    }
+    .adOne-container{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 0;
+    }
+    .adOne-details{
+        width: 100%;
+    }
+    .adOne-img{
+        width: 100%;
+        padding: 20px;
+    }
+    .img-one{
+        width: 80%;
+    }
+    .img-two{
+        bottom: -5%;
+        width: 30%;
+    }
+    .adTwo-container{
+        margin-top: 80px;
+    }
+    .adTwo-details p{
+        padding: 0 15px;
+
+    }
+    .career{
+        margin-top: 0;
+    }
+    .career-container{
+        flex-direction: column;
+    }
+    .career-details{
+        width: 100%;
+        padding: 10px;
+    }
+    .career-address{
+        font-size: 14px;
+    }
+    .btn-white{
+        font-size: 12px;
+        padding: 12px 20px;
+    }
+    .career-img{
+        width: 100%;
+    }
+    .tag-five, .tag-four{
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 10px;
+    }
+    .footer-info, .terms{
+        font-size: 12px;
+        gap: 15px;
+        padding: 5px;
+    }
+    .footer-icon img{
+        width: 30px;
+    }
 }
