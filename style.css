@@ -257,40 +257,6 @@
     color: #FF43A4;
     font-weight: bold;
 }
-/* .card{
-    width: 340px;
-    height: 400px;
-    margin-top: 40px;
-    position: relative;
-}
-.card-img{
-    width: 100%;
-    display: block;
-}
-.overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    opacity: 0;
-    border-radius: 16px;
-    cursor: pointer;
-    color: black;
-}
-.overlay:hover{
-    opacity: 1;
-}
-.overlay p{
-    color: #FF43A4;
-    font-weight: bold;
-} */
 /* AD-1 starts from here */
 .adOne-container{
     max-width: 1440px;
@@ -434,37 +400,32 @@
     width: 100%;
 }
 
-/* Tag starts from here */
-.tag{
+/* Games Tag starts from here */
+.games-tag{
     background-color: #FFF9FC;
+    padding: 120px 0;
 }
 .tag-container{
     max-width: 1440px;
     margin: 0 auto;
-    padding: 120px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 200px;
+    gap: 20px;
 }
-.tag-five, .tag-four{
+.tag{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    margin-top: 30px;
-}
-.five, .four{
-    gap: 10px;
-    display: flex;
-    align-items: center;
+    padding: 8px 15px;
     background-color: white;
-    border: none;
-    padding: 10px 15px;
     border-radius: 48px;
+    gap: 10px;
 }
-.five:hover{
+.tag:hover{
     cursor: pointer;
-    border: 1px solid #FF56AD;
-}
-.four:hover{
-    cursor: pointer;
-    border: 1px solid #FF56AD;
+    border: 1px solid #FF43A4;
 }
 
 /* Footer starts from here */

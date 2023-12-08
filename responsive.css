@@ -44,7 +44,6 @@
     }
 
     /* Rectangle */
-    /* Try to make 2 column like grid */
     .rectangle-container{
         flex-direction: column;
         gap: 100px;
@@ -120,12 +119,6 @@
     }
     .career-img{
         width: 100%;
-    }
-    /* TAG */
-    .tag-five, .tag-four{
-        flex-direction: column;
-        margin-top: 30px;
-        gap: 10px;
     }
 }
 
@@ -208,10 +201,18 @@
     .career-img{
         width: 100%;
     }
-    .tag-five, .tag-four{
-        flex-direction: column;
-        margin-top: 30px;
-        gap: 10px;
+    .tag-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 10px;
+    }
+    .tag{
+        padding: 5px;
+        font-size: 10px;
+    }
+    .tag img{
+        width: 30px;
+        height: 30px;
     }
     .footer-info, .terms{
         font-size: 12px;
