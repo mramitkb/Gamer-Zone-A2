@@ -47,9 +47,11 @@
     /* Try to make 2 column like grid */
     .rectangle-container{
         flex-direction: column;
-        gap: 40px;
+        gap: 100px;
     }
-
+    .one-card p{
+        text-align: center;
+    }
     /* Ad-1 */
     .adOne-container{
         flex-direction: column;
@@ -156,6 +158,9 @@
     }
     .rectangle-container{
         flex-direction: column;
+    }
+    .one-card p{
+        text-align: center;
     }
     .adOne-container{
         flex-direction: column;
